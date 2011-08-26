@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8885501B1408098D005000C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8885501A1408098D005000C8 /* Foundation.framework */; };
+		888550211408098D005000C8 /* snappy-cocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 888550201408098D005000C8 /* snappy-cocoa.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		888550171408098D005000C8 /* libsnappy-cocoa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libsnappy-cocoa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8885501A1408098D005000C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8885501E1408098D005000C8 /* snappy-cocoa-Prefix.pch */ = {isa = PBXFileReference; path = "snappy-cocoa-Prefix.pch"; sourceTree = "<group>"; };
+		8885501F1408098D005000C8 /* snappy-cocoa.h */ = {isa = PBXFileReference; path = "snappy-cocoa.h"; sourceTree = "<group>"; };
+		888550201408098D005000C8 /* snappy-cocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "snappy-cocoa.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		888550141408098D005000C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8885501B1408098D005000C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8885500C1408098D005000C8 = {
+			isa = PBXGroup;
+			children = (
+				8885501C1408098D005000C8 /* snappy-cocoa */,
+				888550191408098D005000C8 /* Frameworks */,
+				888550181408098D005000C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		888550181408098D005000C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				888550171408098D005000C8 /* libsnappy-cocoa.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		888550191408098D005000C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8885501A1408098D005000C8 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8885501C1408098D005000C8 /* snappy-cocoa */ = {
+			isa = PBXGroup;
+			children = (
+				8885501F1408098D005000C8 /* snappy-cocoa.h */,
+				888550201408098D005000C8 /* snappy-cocoa.m */,
+				8885501D1408098D005000C8 /* Supporting Files */,
+			);
+			path = "snappy-cocoa";
+			sourceTree = "<group>";
+		};
+		8885501D1408098D005000C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8885501E1408098D005000C8 /* snappy-cocoa-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		888550151408098D005000C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		888550161408098D005000C8 /* snappy-cocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888550241408098D005000C8 /* Build configuration list for PBXNativeTarget "snappy-cocoa" */;
+			buildPhases = (
+				888550131408098D005000C8 /* Sources */,
+				888550141408098D005000C8 /* Frameworks */,
+				888550151408098D005000C8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "snappy-cocoa";
+			productName = "snappy-cocoa";
+			productReference = 888550171408098D005000C8 /* libsnappy-cocoa.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8885500E1408098D005000C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Daniel Schnell";
+			};
+			buildConfigurationList = 888550111408098D005000C8 /* Build configuration list for PBXProject "snappy-cocoa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8885500C1408098D005000C8;
+			productRefGroup = 888550181408098D005000C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				888550161408098D005000C8 /* snappy-cocoa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		888550131408098D005000C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888550211408098D005000C8 /* snappy-cocoa.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		888550221408098D005000C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		888550231408098D005000C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		888550251408098D005000C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/snappy_cocoa.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "snappy-cocoa/snappy-cocoa-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		888550261408098D005000C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/snappy_cocoa.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "snappy-cocoa/snappy-cocoa-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		888550111408098D005000C8 /* Build configuration list for PBXProject "snappy-cocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888550221408098D005000C8 /* Debug */,
+				888550231408098D005000C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		888550241408098D005000C8 /* Build configuration list for PBXNativeTarget "snappy-cocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888550251408098D005000C8 /* Debug */,
+				888550261408098D005000C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8885500E1408098D005000C8 /* Project object */;
+}

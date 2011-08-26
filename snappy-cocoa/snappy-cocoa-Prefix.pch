@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'snappy-cocoa' target in the 'snappy-cocoa' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
