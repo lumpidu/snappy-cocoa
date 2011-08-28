@@ -109,7 +109,7 @@ class LogMessage {
     cerr << endl;
   }
 
-  LogMessage& operator<<(const std::string& msg) {
+  LogMessage& operator<<(const string& msg) {
     cerr << msg;
     return *this;
   }
