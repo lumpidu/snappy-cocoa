@@ -150,6 +150,7 @@
 		8885500E1408098D005000C8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Daniel Schnell";
 			};
 			buildConfigurationList = 888550111408098D005000C8 /* Build configuration list for PBXProject "snappy-cocoa" */;
@@ -232,6 +233,7 @@
 				DSTROOT = /tmp/snappy_cocoa.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "snappy-cocoa/snappy-cocoa-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = NO;
@@ -244,6 +246,7 @@
 				DSTROOT = /tmp/snappy_cocoa.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "snappy-cocoa/snappy-cocoa-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = NO;
