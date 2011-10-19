@@ -2,7 +2,7 @@
 
 This is a shameless "port" of the compressor algorithm snappy from Google to Objective-C++.
 
-The original project can be found here: ([*Snappy: A fast compressor/decomnpressor*]http://code.google.com/p/snappy/)
+The original project can be found here: [*Snappy: A fast compressor/decomnpressor*](http://code.google.com/p/snappy/)
 This version is based on snappy-1.4
 
 I added basically an XCode project around the source files, so compilation with newest XCode 4.2 is smooth.
