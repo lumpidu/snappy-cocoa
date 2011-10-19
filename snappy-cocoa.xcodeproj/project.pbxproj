@@ -200,12 +200,13 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
+				SYMROOT = "~/projects/.builds";
 				VALIDATE_PRODUCT = NO;
 			};
 			name = Debug;
@@ -217,12 +218,13 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
+				SYMROOT = "~/projects/.builds";
 				VALIDATE_PRODUCT = NO;
 			};
 			name = Release;
@@ -235,8 +237,10 @@
 				GCC_PREFIX_HEADER = "snappy-cocoa/snappy-cocoa-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = ../../Headers/Private;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = NO;
+				PUBLIC_HEADERS_FOLDER_PATH = ../../Headers;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -248,8 +252,10 @@
 				GCC_PREFIX_HEADER = "snappy-cocoa/snappy-cocoa-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = ../../Headers/Private;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = NO;
+				PUBLIC_HEADERS_FOLDER_PATH = ../../Headers;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
