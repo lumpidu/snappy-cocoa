@@ -1,2 +1,6 @@
-
+# Mac OS X
 .DS_Store
+
+# XCode
+*.xcodeproj/
+!*.xcodeproj/project.pbxproj
